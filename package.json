@@ -1,0 +1,27 @@
+{
+  "name": "exceed-web-trilogy-backend",
+  "version": "1.0.0",
+  "description": "Exceed Web Trilogy Backend Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/apolinariojohnharold05/exceed-web-trilogy-backend.git"
+  },
+  "author": "John Harold Apolinario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/apolinariojohnharold05/exceed-web-trilogy-backend/issues"
+  },
+  "homepage": "https://gitlab.com/apolinariojohnharold05/exceed-web-trilogy-backend#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5"
+  }
+}
