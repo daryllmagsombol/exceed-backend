@@ -2,6 +2,8 @@
 require('dotenv').config()
 //Require express from the installed node modules
 const express = require('express')
+//Require cors
+const cors = require('cors')
 //Instantiate express app
 const app = express()
 const routes = require('./routes/routes')
@@ -9,6 +11,7 @@ const routes = require('./routes/routes')
 //middlewares
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(cors())
 
 //Routes
 app.use(`/api/${process.env.APP_VERSION}`, routes)
